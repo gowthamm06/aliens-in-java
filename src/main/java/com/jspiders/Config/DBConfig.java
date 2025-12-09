@@ -27,6 +27,6 @@ public class DBConfig {
     public static void shutdown()
     {
         sessionFactory.close();
-        System.out.println("🔒Session Factory Closed");
+        System.out.println("🔒Session Factory Closed....");
     }
 }

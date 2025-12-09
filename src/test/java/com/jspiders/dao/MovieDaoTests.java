@@ -72,10 +72,9 @@ public class MovieDaoTests {
             System.out.println("✅Get Get Movie By Title Test PASSED");
         }
         catch (Exception ex) {
-            System.err.println("❌Get Get Movie By Title Test FAILED");
+            System.err.println("❌Getting Get Movie By Title Test FAILED");
             ex.printStackTrace();
         }
     }
-
 
 }
